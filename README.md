@@ -10,15 +10,15 @@ Master thesis project for building streaming framework adjusted for graph data.
 Building graph processing microservice:
 
 ```bash
-    docker-compose up
+docker-compose up
 ```
 
 Running producer:
 
 ```bash
-    poetry install --no-interaction
+poetry install --no-interaction
 
-    poetry run python main.py
+poetry run python main.py
 ```
 
 Analytics library:
