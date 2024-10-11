@@ -771,6 +771,27 @@ files = [
 ]
 
 [[package]]
+name = "simple-settings"
+version = "1.2.0"
+description = "A simple way to manage your project settings."
+optional = false
+python-versions = ">=3.6.1,<4.0"
+files = [
+    {file = "simple-settings-1.2.0.tar.gz", hash = "sha256:db96809e44557672660c7b5a467941d953b6f4f54699425ff25ecb879758d416"},
+    {file = "simple_settings-1.2.0-py3-none-any.whl", hash = "sha256:e6855358ef072c94fe973400ff56ae551eb8e92a4ead35b9eae8a5182409e771"},
+]
+
+[package.extras]
+all = ["PyYAML (==6.0)", "SQLAlchemy (==1.4.26)", "boto3 (>=1.20.26,<2.0.0)", "jsonpickle (==2.0.0)", "pymemcache (==3.5.0)", "redis (==3.5.3)", "six (==1.16.0)", "toml (==0.10.2)"]
+database = ["SQLAlchemy (==1.4.26)"]
+dynamic-settings = ["jsonpickle (==2.0.0)"]
+memcache = ["pymemcache (==3.5.0)", "six (==1.16.0)"]
+redis = ["redis (==3.5.3)"]
+s3 = ["boto3 (>=1.20.26,<2.0.0)"]
+toml = ["toml (==0.10.2)"]
+yaml = ["PyYAML (==6.0)"]
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -938,4 +959,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "52654d9c7e8d91dbc5698a531143331b8d1b9898f820947c283848176cb0858f"
+content-hash = "f8e06466ea55e3a0b92465148dd1f1f3682063e1e61940bf36d4074109c40a24"
