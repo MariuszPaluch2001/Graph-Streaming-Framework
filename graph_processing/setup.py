@@ -4,7 +4,6 @@ requires = [
     "faust-streaming",
     "networkx",
     "simple-settings",
-    
 ]
 
 setup(
