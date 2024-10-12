@@ -7,8 +7,8 @@ authors = ["Mariusz Paluch <mariuszpaluch001@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 faust-streaming = "^0.11.3"
-networkx = "^3.3"
 simple-settings = "^1.2.0"
+neo4j = "^5.25.0"
 
 
 [build-system]
